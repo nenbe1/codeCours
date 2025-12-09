@@ -19,3 +19,10 @@ int power( int value, unsigned int pow ) {
  }
  return accumulator;
 }
+//fonction pour permuter le contenu de deux variables
+void permutation(int *a,int *b){
+   int c = 0 ; 
+    c = *a ;
+    *a = *b ; 
+   *b = c ; 
+}
